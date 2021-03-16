@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./asset/fav.png" />
+    <title>Ja's Zone</title>
+  </head>
+  <body class="image1">
+    <div class="container">
+      <div class="navigasi">
+        <nav>
+          <img class="logo" src="./asset/logo.png" />
+        </nav>
+        <div class="baca">
+          <a href="https://www.youtube.com/watch?v=EFafSYg-PkI"><b>Home</b></a>
+          <a href="https://www.youtube.com/watch?v=EFafSYg-PkI"><b>Home</b></a>
+          <a href="https://www.youtube.com/watch?v=EFafSYg-PkI"><b>Home</b></a>
+          <a href="https://www.youtube.com/watch?v=EFafSYg-PkI"><b>Home</b></a>
+        </div>
+      </div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, tenetur
+      at fuga, inventore qui atque veritatis necessitatibus harum optio
+      assumenda tempora animi rem esse adipisci ipsum iste libero minus id!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus,
+      deleniti illo veritatis sint voluptatibus quos assumenda culpa explicabo.
+      Tempore cum similique sint perferendis est doloremque deserunt eius qui ab
+      repudiandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+      iure praesentium iste libero facilis doloribus, reprehenderit atque facere
+      amet quibusdam eaque quod voluptates dolorem voluptatum, dolore
+      laboriosam! Unde, voluptatem deleniti!
+    </p>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scr = $(document).scrollTop() / 80; // Angka 10 lebih kencang, 100 = tidak bergerak
+          $(".image1").css("background-position", "50% " + scr + "%");
+          // Selector yang dipilih .image1, sesuaikan dengan css yang kamu buat
+        });
+      });
+    </script>
+  </body>
+</html>
